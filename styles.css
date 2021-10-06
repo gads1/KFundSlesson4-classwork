@@ -2,19 +2,29 @@ h1 {
     text-align: center;
 }
 
-image{
-    width: 25px;
+img{
+    width: 100px;
     height: auto;
 }
 
 .main {
-    border: 1px solid black;
     border-collapse: separate;
 }
 
 .none{
     border: 1px solid black;
-    border-collapse: separate;
-    width: auto;
-    height: 1000px;
+    width: 1000px;
+    height: 400px;
+    -webkit-box-shadow: -3px 1px 71px 25px rgba(34, 60, 80, 0.49);
+    -moz-box-shadow: -3px 1px 71px 25px rgba(34, 60, 80, 0.49);
+    box-shadow: -3px 1px 71px 25px rgba(34, 60, 80, 0.49);
+}
+
+.main-left {
+    border: 1px solid black;
+    width: 1000px;
+    height: auto;
+    -webkit-box-shadow: -3px 1px 71px 25px rgba(34, 60, 80, 0.49);
+    -moz-box-shadow: -3px 1px 71px 25px rgba(34, 60, 80, 0.49);
+    box-shadow: -3px 1px 71px 25px rgba(34, 60, 80, 0.49);
 }
